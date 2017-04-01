@@ -1,0 +1,105 @@
+{
+    "AdvancedMobileAccess": [
+        {
+            "credentials": {
+                "version": 3,
+                "clientId": "7bd14274-cb58-4cf2-9f51-8f9310968b59",
+                "secret": "MWI3MjQ3ZjMtMjNlOS00NDgzLWFiZDUtMjFhZTU3YjdmMjE0",
+                "tenantId": "e0951a58-fb53-4a0a-92dd-a5ba3348a197",
+                "oauthServerUrl": "https://appid-oauth.ng.bluemix.net/oauth/v3/e0951a58-fb53-4a0a-92dd-a5ba3348a197",
+                "profilesUrl": "https://appid-profiles.ng.bluemix.net"
+            },
+            "syslog_drain_url": null,
+            "label": "AdvancedMobileAccess",
+            "provider": null,
+            "plan": "Graduated tier",
+            "name": "ICICI Bank App-AdvancedMobileAccess",
+            "tags": [
+                "security",
+                "Security",
+                "mobile",
+                "ibm_created",
+                "ibm_dedicated_public"
+            ]
+        }
+    ],
+    "imfpush": [
+        {
+            "credentials": {
+                "appGuid": "d6836ace-50e3-4131-ab65-e905c1115883",
+                "url": "http://imfpush.ng.bluemix.net/imfpush/v1/apps/d6836ace-50e3-4131-ab65-e905c1115883",
+                "admin_url": "//mobile.ng.bluemix.net/imfpushdashboard/?appGuid=d6836ace-50e3-4131-ab65-e905c1115883",
+                "appSecret": "8dc2ead2-a819-4fe7-89f5-df85e6a398d5",
+                "clientSecret": "762d45c1-5c04-4dff-9d32-dc3a01185b16"
+            },
+            "syslog_drain_url": null,
+            "label": "imfpush",
+            "provider": null,
+            "plan": "Basic",
+            "name": "ICICI Bank App-imfpush",
+            "tags": [
+                "mobile",
+                "ibm_created",
+                "ibm_dedicated_public",
+                "lite"
+            ]
+        }
+    ],
+    "cloudantNoSQLDB": [
+        {
+            "credentials": {
+                "username": "7d16ef87-9e5e-4203-9ce2-9222d7bed7d1-bluemix",
+                "password": "f935c5f8280ad247e40ca26beab7beeb79dd7844aa5e79d464736021ed8a940f",
+                "host": "7d16ef87-9e5e-4203-9ce2-9222d7bed7d1-bluemix.cloudant.com",
+                "port": 443,
+                "url": "https://7d16ef87-9e5e-4203-9ce2-9222d7bed7d1-bluemix:f935c5f8280ad247e40ca26beab7beeb79dd7844aa5e79d464736021ed8a940f@7d16ef87-9e5e-4203-9ce2-9222d7bed7d1-bluemix.cloudant.com"
+            },
+            "syslog_drain_url": null,
+            "label": "cloudantNoSQLDB",
+            "provider": null,
+            "plan": "Lite",
+            "name": "ICICI Bank App-cloudantNoSQLDB",
+            "tags": [
+                "data_management",
+                "ibm_created",
+                "lite",
+                "ibm_dedicated_public"
+            ]
+        }
+    ],
+    "product_insights": [
+        {
+            "credentials": {
+                "apihost": "https://productinsights-api.ng.bluemix.net",
+                "apikey": "d36f58b5-c298-4662-960d-89f566598d2e"
+            },
+            "syslog_drain_url": null,
+            "label": "product_insights",
+            "provider": null,
+            "plan": "default",
+            "name": "Product Insights-42",
+            "tags": [
+                "ibm_created",
+                "integration"
+            ]
+        }
+    ],
+    "AvailabilityMonitoring": [
+        {
+            "credentials": {
+                "cred_url": "https://perfbroker.ng.bluemix.net",
+                "token": "cexD22Jk1pBB7joL5bjW4hLAQ9S/5AR6lp4cmHU8j8FYkN+hkqdAoXsKw5eyA0gBQhBS61sghImz1BciDsx6XPduoD+rWuxUGOU4fSf/gwE="
+            },
+            "syslog_drain_url": null,
+            "label": "AvailabilityMonitoring",
+            "provider": null,
+            "plan": "Lite",
+            "name": "availability-monitoring-auto",
+            "tags": [
+                "ibm_created",
+                "bluemix_extensions",
+                "dev_ops"
+            ]
+        }
+    ]
+}

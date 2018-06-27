@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Anton Aleksandrov",
   "dependencies": {
@@ -17,7 +19,8 @@
     "loopback-connector-mysql": "^2.2.0",
     "loopback-datasource-juggler": "^2.39.0",
     "passport": "^0.3.2",
-    "serve-favicon": "^2.0.1"
+    "serve-favicon": "^2.0.1",
+    "snyk": "^1.85.0"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,6 @@
   "engines": {
     "node": "0.12.x"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "snyk": true
 }

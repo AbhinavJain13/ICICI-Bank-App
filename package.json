@@ -11,7 +11,7 @@
     "bms-mca-token-validation-strategy": "2.x",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
-    "loopback": "^2.22.0",
+    "loopback": "^3.28.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^2.1.0",
     "loopback-connector-mysql": "^2.2.0",
